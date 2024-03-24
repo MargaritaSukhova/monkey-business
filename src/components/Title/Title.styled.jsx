@@ -8,4 +8,5 @@ export const TitleStyled = styled.h2`
 	line-height: 40px;
 	text-transform: uppercase;
 	margin-bottom: 24px;
+	text-align: center;
 `;

@@ -4,10 +4,11 @@ import {
 	CardText,
 	CardTitle,
 	CardStyledLink,
+	LinkStyled,
 } from "./MindMapCard.styled";
 
 // import { ReactComponent as Arrow }  from "../../assets/icons/arrow.svg";
- import Arrow from "../../assets/icons/arrow.svg"
+import Arrow from "../../assets/icons/arrow.svg";
 
 const MindMapCard = ({ card }) => {
 	return (
@@ -19,15 +20,19 @@ const MindMapCard = ({ card }) => {
 				</CardStyled>
 			) : (
 				<CardStyledLink>
-					<img src={Arrow} alt="Arrow" style={{ width: 24, height: 24, marginLeft: "auto" }} />
-					<a
+					<LinkStyled
 						href="https://www.linkedin.com/in/margaryta-sukhova/"
 						target="blank"
 						rel="noopener noreferrer"
 						aria-label="Link to Margarita's LinkedIn"
 					>
+						<img
+							src={Arrow}
+							alt="Arrow"
+							style={{ width: 24, height: 24, marginLeft: "auto" }}
+						/>
 						<CardTitle>{card.title}</CardTitle>
-					</a>
+					</LinkStyled>
 				</CardStyledLink>
 			)}
 		</div>

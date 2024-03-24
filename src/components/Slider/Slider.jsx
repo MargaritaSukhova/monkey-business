@@ -2,11 +2,13 @@ import PropTypes from "prop-types";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import MindMapCard from "../MindMapCard/MindMapCard";
+import SliderButtons from "../SliderButtons/SliderButtons";
+import { SwiperStyled } from "./Slider.styled";
 
 
 const Slider = ({ cards }) => {
 	return (
-		<Swiper
+		<SwiperStyled
 			spaceBetween={24}
 			slidesPerView={1}
 			// onSlideChange={() => console.log("slide change")}
@@ -17,11 +19,8 @@ const Slider = ({ cards }) => {
 					<MindMapCard card={card} />
 				</SwiperSlide>
 			))}
-			{/* <SwiperSlide>Slide 1</SwiperSlide>
-			<SwiperSlide>Slide 2</SwiperSlide>
-			<SwiperSlide>Slide 3</SwiperSlide>
-			<SwiperSlide>Slide 4</SwiperSlide> */}
-		</Swiper>
+			<SliderButtons></SliderButtons>
+		</SwiperStyled>
 	);
 };
 
