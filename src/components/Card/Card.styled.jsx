@@ -46,3 +46,20 @@ export const LinkStyled = styled.a`
 	flex-direction: column;
 	justify-content: space-between;
 `;
+
+export const ImageContainer = styled.div`
+	width: 216px;
+	height: 256px;
+	border-radius: 12px;
+	overflow: hidden;
+`;
+
+export const PictureStyled = styled.picture`
+	border-radius: 12px;
+	object-fit: cover;
+`;
+
+export const ImageStyled = styled.img`
+	border-radius: 12px;
+	object-fit: cover;
+`;

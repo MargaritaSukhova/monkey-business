@@ -8,9 +8,9 @@ export const ButtonContainer = styled.div`
 `;
 
 export const ButtonStyled = styled.button`
-	color: #fff;
-  background-color: transparent;
-  border: 0;
+	color: inherit;
+	background-color: transparent;
+	border: 0;
 	font-family: "Biro Script Plus";
 	font-size: 24px;
 	font-style: normal;

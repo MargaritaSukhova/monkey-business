@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
 
 export const SwiperStyled = styled(Swiper)`
 	display: flex;

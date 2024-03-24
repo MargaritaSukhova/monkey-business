@@ -1,7 +1,6 @@
 @import "../node_modules/normalize.css/normalize.css";
 
 html {
-	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
 
@@ -34,7 +33,7 @@ ol {
 	padding: 0;
 }
 
-img {
+img, picture {
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -47,6 +46,12 @@ a {
 
 button {
 	cursor: pointer;
+}
+
+button,
+input,
+select {
+  margin: 0;
 }
 
 /* =========================== CUSTOM FONTS =========================== */

@@ -7,7 +7,7 @@ const MindMap = () => {
 	return (
 		<Container>
 			<Title title="Mind Map"></Title>
-			<Slider cards={cards}></Slider>
+			<Slider cards={cards} count="1"></Slider>
 		</Container>
 	);
 };
