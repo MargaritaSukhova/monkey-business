@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+
 import "./App.css";
 import About from "./components/About/About";
 import Arts from "./components/Arts/Arts";
