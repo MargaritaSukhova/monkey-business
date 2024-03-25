@@ -7,15 +7,15 @@ export const StyledContainer = styled.div`
 	padding-right: 72px;
 	max-width: 480px;
 
-	// @media (min-width: 768px) {
-	// 	width: 768px;
-	// 	padding-left: 32px;
-	// 	padding-right: 32px;
-	// }
+	@media (min-width: 768px) {
+		max-width: 768px;
+		padding-left: 88px;
+		padding-right: 88px;
+	}
 
-	// @media (min-width: 1440px) {
-	// 	width: 1440px;
-	// 	padding-left: 100px;
-	// 	padding-right: 100px;
-	// }
+	@media (min-width: 1280px) {
+		max-width: 1440px;
+		padding-left: 204px;
+		padding-right: 204px;
+	}
 `;

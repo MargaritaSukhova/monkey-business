@@ -26,7 +26,7 @@ const Slider = ({ cards, count }) => {
 
 Slider.propTypes = {
 	cards: PropTypes.arrayOf(PropTypes.shape({})),
-	count: PropTypes.number
+	count: PropTypes.string,
 };
 
 export default Slider;
