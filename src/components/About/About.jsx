@@ -23,8 +23,8 @@ import Section from "../Section/Section";
 const About = () => {
 	return (
 		<>
-			<Container>
-				<Section id="about">
+			<Section id="about">
+				<Container>
 					<Wrapper>
 						<TitleStyled>
 							a Story that started with{" "}
@@ -64,8 +64,8 @@ const About = () => {
 							<ImageStyled src={aboutSml} alt="About Section Ape image" />
 						</picture>
 					</SecondWrapper>
-				</Section>
-			</Container>
+				</Container>
+			</Section>
 			<Baner />
 		</>
 	);

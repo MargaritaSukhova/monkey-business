@@ -19,6 +19,8 @@ import {
 } from "./Hero.styled";
 
 const Hero = () => {
+
+
 	return (
 		<HeroSection>
 			<HeroContainer>

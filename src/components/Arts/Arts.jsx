@@ -10,11 +10,11 @@ const Arts = () => {
 	
 	let count;
 	if (isMobile) {
-		count = 1;
+		count = "1";
 	} else if (isTablet) {
-		count = 2;
+		count = "2";
 	} else if (isDesktop) {
-		count = 4;
+		count = "4";
 	}
 
 	return (
