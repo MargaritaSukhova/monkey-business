@@ -1,23 +1,36 @@
 import Cross from "../../assets/icons/cross.svg"
+import { BanerContainer, BanerStyled, BanerItem, Icon } from "./Baner.styled";
 
 const Baner = () => {
 	return (
-		<div>
-			<ul>
-				<li>
+		<BanerContainer>
+			<BanerStyled>
+				<BanerItem>
 					<p>Destroy stereotypes</p>
-					<img src={Cross} alt="Cross icon" />
-				</li>
-				<li>
+					<Icon src={Cross} alt="Cross icon" />
+				</BanerItem>
+				<BanerItem>
 					<p>HAVE NO LIMITS</p>
-					<img src={Cross} alt="Cross icon" />
-				</li>
-				<li>
+					<Icon src={Cross} alt="Cross icon" />
+				</BanerItem>
+				<BanerItem>
 					<p>Break rules</p>
-					<img src={Cross} alt="Cross icon" />
-				</li>
-			</ul>
-		</div>
+					<Icon src={Cross} alt="Cross icon" />
+				</BanerItem>
+				<BanerItem>
+					<p>Destroy stereotypes</p>
+					<Icon src={Cross} alt="Cross icon" />
+				</BanerItem>
+				<BanerItem>
+					<p>HAVE NO LIMITS</p>
+					<Icon src={Cross} alt="Cross icon" />
+				</BanerItem>
+				<BanerItem>
+					<p>Break rules</p>
+					<Icon src={Cross} alt="Cross icon" />
+				</BanerItem>
+			</BanerStyled>
+		</BanerContainer>
 	);
 };
 
