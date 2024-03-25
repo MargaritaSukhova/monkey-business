@@ -10,6 +10,7 @@ import {
 	HeroWrapper,
 	TitleContainer,
 	HeroText,
+	HeroTextWithIndent,
 	HeroTitle,
 	HeroPicture,
 	HeroButton,
@@ -27,7 +28,7 @@ const Hero = () => {
 						<HeroTitle>
 							YACHT <span>APES</span>
 						</HeroTitle>
-						<HeroText>Apes aRe eveRywhere</HeroText>
+						<HeroTextWithIndent>Apes aRe eveRywhere</HeroTextWithIndent>
 					</TitleContainer>
 					<HeroPicture>
 						<source

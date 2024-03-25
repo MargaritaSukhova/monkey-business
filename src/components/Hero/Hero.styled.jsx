@@ -59,6 +59,17 @@ export const HeroText = styled.p`
 		font-size: 20px;
 		line-height: 33px;
 	}
+
+	@media (min-width: 1280px) {
+		font-size: 24px;
+		line-height: 40px;
+	}
+`;
+
+export const HeroTextWithIndent = styled(HeroText)`
+	@media (min-width: 1280px) {
+		text-indent: 130px;
+	}
 `;
 
 export const HeroTitle = styled.h1`
@@ -85,6 +96,7 @@ export const HeroTitle = styled.h1`
 		font-size: 164px;
 		line-height: 164px;
 		width: 1019px;
+		margin-bottom: 40px;
 	}
 `;
 

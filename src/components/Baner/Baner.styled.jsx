@@ -19,7 +19,7 @@ export const BanerStyled = styled.ul`
 
 	gap: 24px;
 
-	animation: marquee 15s linear infinite;
+	animation: marquee 13s linear infinite;
 
 	@keyframes marquee {
 		0% {
