@@ -22,7 +22,7 @@ const mindMapCardsData = [
 	{
 		id: 4,
 		type: "link",
-		title: "Learn more in mind map",
+		title: ["Learn", "more", "in mind map"],
 		icon: Arrow,
 	},
 ];

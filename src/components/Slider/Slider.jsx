@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import {  SwiperSlide } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Card from "../Card/Card";
 import SliderButtons from "../SliderButtons/SliderButtons";
@@ -11,8 +11,6 @@ const Slider = ({ cards, count }) => {
 		<SwiperStyled
 			spaceBetween={24}
 			slidesPerView={count}
-			// onSlideChange={() => console.log("slide change")}
-			// onSwiper={(swiper) => console.log(swiper)}
 		>
 			{cards.map((card) => (
 				<SwiperSlide key={card.id}>

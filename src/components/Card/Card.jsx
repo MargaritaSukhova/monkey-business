@@ -1,3 +1,4 @@
+import React from "react";
 import PropTypes from "prop-types";
 import {
 	CardStyled,
@@ -5,6 +6,7 @@ import {
 	CardTitle,
 	CardStyledLink,
 	LinkStyled,
+	Icon,
 	ImageContainer,
 	ImageStyled,
 	PictureStyled,
@@ -32,12 +34,17 @@ const Card = ({ card }) => {
 						rel="noopener noreferrer"
 						aria-label="Link to Margaryta's LinkedIn"
 					>
-						<img
-							src={Arrow}
-							alt="Arrow icon"
-							style={{ width: 24, height: 24, marginLeft: "auto" }}
-						/>
-						<CardTitle>{card.title}</CardTitle>
+						<Icon src={Arrow} alt="Arrow icon" />
+						<CardTitle>
+							{Array.isArray(card.title)
+								? card.title.map((part, index) => (
+										<React.Fragment key={index}>
+											{part}
+											{index < card.title.length - 1 && <br />}
+										</React.Fragment>
+								  ))
+								: card.title}
+						</CardTitle>
 					</LinkStyled>
 				</CardStyledLink>
 			);

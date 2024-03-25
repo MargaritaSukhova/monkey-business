@@ -4,7 +4,11 @@ export const ButtonContainer = styled.div`
 	display: flex;
 	align-items: space-between;
 	gap: 48px;
-  margin-top: 24px;
+	margin-top: 24px;
+
+	@media (min-width: 1280px) {
+		margin-top: 45px;
+	}
 `;
 
 export const ButtonStyled = styled.button`

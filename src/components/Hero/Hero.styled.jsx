@@ -4,7 +4,7 @@ export const HeroSection = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 54px 8px 60px 8px;
+	margin: 54px 8px 0px 8px;
 	padding-top: 36px;
 	padding-bottom: 19px;
 	border-radius: 12px;
@@ -12,13 +12,13 @@ export const HeroSection = styled.section`
 
 	@media (min-width: 768px) {
 		position: relative;
-		margin: 54px 16px 80px 16px;
+		margin: 54px 16px 0px 16px;
 		padding: 35px 0 0 0;
 	}
 	@media (min-width: 1280px) {
 		position: relative;
-		margin: 16px 16px 120px 16px;
-		// padding: 65px 195px 0 194px;
+		margin: 16px 16px 0px 16px;
+		padding: 65px 0 0 0;
 	}
 `;
 

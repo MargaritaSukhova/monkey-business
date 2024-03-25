@@ -18,12 +18,13 @@ import {
 	Icon,
 } from "./About.styled";
 import Baner from "../Baner/Baner";
+import Section from "../Section/Section";
 
 const About = () => {
 	return (
 		<>
 			<Container>
-				<section id="about">
+				<Section id="about">
 					<Wrapper>
 						<TitleStyled>
 							a Story that started with{" "}
@@ -63,7 +64,7 @@ const About = () => {
 							<ImageStyled src={aboutSml} alt="About Section Ape image" />
 						</picture>
 					</SecondWrapper>
-				</section>
+				</Section>
 			</Container>
 			<Baner />
 		</>
