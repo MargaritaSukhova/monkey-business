@@ -1,5 +1,4 @@
 
-import "./App.css";
 import About from "./components/About/About";
 import Arts from "./components/Arts/Arts";
 import ContactUs from "./components/ContactUs/ContactUs";
